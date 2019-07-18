@@ -1,0 +1,543 @@
+--- !ruby/object:Run
+my_party: !ruby/object:Party
+  max_party: 4
+  active_party:
+  - &1 !ruby/object:Character
+    active: false
+    name: Cloud
+    level: 99
+    experience: 3200
+    hp_max: 7170
+    hp: 7170
+    mp_max: 832
+    mp: 832
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 5
+        jp: 80
+        name: Freelancer
+        next_rank: 
+      :Onion_Knight: !ruby/object:Onion_Knight
+        rank: 1
+        jp: 0
+        name: Onion Knight
+        next_rank: 999
+      :Warrior: !ruby/object:Warrior
+        rank: 5
+        jp: 40
+        name: Warrior
+        next_rank: 
+      :Knight: !ruby/object:Knight
+        rank: 1
+        jp: 0
+        name: Knight
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 5
+        jp: 80
+        name: Monk
+        next_rank: 0
+      :Ninja: !ruby/object:Ninja
+        rank: 1
+        jp: 0
+        name: Ninja
+        next_rank: 20
+      :White_Mage: !ruby/object:White_Mage
+        rank: 5
+        jp: 40
+        name: White Mage
+        next_rank: 0
+      :Time_Mage: !ruby/object:Time_Mage
+        rank: 1
+        jp: 0
+        name: Time Mage
+        next_rank: 10
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 5
+        jp: 0
+        name: Black Mage
+        next_rank: 0
+      :Summoner: !ruby/object:Summoner
+        rank: 1
+        jp: 0
+        name: Summoner
+        next_rank: 20
+      :Red_Mage: !ruby/object:Red_Mage
+        rank: 1
+        jp: 0
+        name: Red Mage
+        next_rank: 100
+    current_job: :Black_Mage
+  - &2 !ruby/object:Character
+    active: false
+    name: Barrett
+    level: 99
+    experience: 3200
+    hp_max: 7490
+    hp: 7490
+    mp_max: 761
+    mp: 761
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 5
+        jp: 80
+        name: Freelancer
+        next_rank: 
+      :Onion_Knight: !ruby/object:Onion_Knight
+        rank: 1
+        jp: 0
+        name: Onion Knight
+        next_rank: 999
+      :Warrior: !ruby/object:Warrior
+        rank: 5
+        jp: 660
+        name: Warrior
+        next_rank: 
+      :Knight: !ruby/object:Knight
+        rank: 1
+        jp: 0
+        name: Knight
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Warrior
+  - &3 !ruby/object:Character
+    active: false
+    name: Tifa
+    level: 99
+    experience: 3200
+    hp_max: 7421
+    hp: 7421
+    mp_max: 785
+    mp: 785
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 5
+        jp: 80
+        name: Freelancer
+        next_rank: 
+      :Onion_Knight: !ruby/object:Onion_Knight
+        rank: 1
+        jp: 0
+        name: Onion Knight
+        next_rank: 999
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 5
+        jp: 700
+        name: Monk
+        next_rank: 0
+      :Ninja: !ruby/object:Ninja
+        rank: 1
+        jp: 0
+        name: Ninja
+        next_rank: 20
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Monk
+  - &4 !ruby/object:Character
+    active: false
+    name: Aeris
+    level: 99
+    experience: 3200
+    hp_max: 6937
+    hp: 6937
+    mp_max: 864
+    mp: 864
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 5
+        jp: 80
+        name: Freelancer
+        next_rank: 
+      :Onion_Knight: !ruby/object:Onion_Knight
+        rank: 1
+        jp: 0
+        name: Onion Knight
+        next_rank: 999
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 5
+        jp: 660
+        name: White Mage
+        next_rank: 0
+      :Time_Mage: !ruby/object:Time_Mage
+        rank: 1
+        jp: 0
+        name: Time Mage
+        next_rank: 10
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :White_Mage
+  standby_party:
+  - &5 !ruby/object:Character
+    active: false
+    name: Squall
+    level: 26
+    experience: 0
+    hp_max: 1535
+    hp: 1535
+    mp_max: 241
+    mp: 241
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 5
+        jp: 84
+        name: Freelancer
+        next_rank: 
+      :Onion_Knight: !ruby/object:Onion_Knight
+        rank: 1
+        jp: 0
+        name: Onion Knight
+        next_rank: 999
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Freelancer
+  - &6 !ruby/object:Character
+    active: false
+    name: Rinoa
+    level: 26
+    experience: 0
+    hp_max: 1522
+    hp: 1522
+    mp_max: 225
+    mp: 225
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 3
+        jp: 10
+        name: Freelancer
+        next_rank: 30
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 5
+        jp: 4
+        name: White Mage
+        next_rank: 0
+      :Time_Mage: !ruby/object:Time_Mage
+        rank: 1
+        jp: 0
+        name: Time Mage
+        next_rank: 10
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :White_Mage
+  - &7 !ruby/object:Character
+    active: false
+    name: Zell
+    level: 26
+    experience: 0
+    hp_max: 1455
+    hp: 1455
+    mp_max: 184
+    mp: 184
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 3
+        jp: 10
+        name: Freelancer
+        next_rank: 30
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 5
+        jp: 44
+        name: Monk
+        next_rank: 0
+      :Ninja: !ruby/object:Ninja
+        rank: 1
+        jp: 0
+        name: Ninja
+        next_rank: 20
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Monk
+  - &8 !ruby/object:Character
+    active: false
+    name: Zidane
+    level: 26
+    experience: 0
+    hp_max: 1577
+    hp: 1577
+    mp_max: 240
+    mp: 240
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 3
+        jp: 10
+        name: Freelancer
+        next_rank: 30
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 5
+        jp: 29
+        name: Thief
+        next_rank: 0
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Thief
+  - &9 !ruby/object:Character
+    active: false
+    name: Vivi
+    level: 26
+    experience: 0
+    hp_max: 1389
+    hp: 1389
+    mp_max: 297
+    mp: 297
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 3
+        jp: 10
+        name: Freelancer
+        next_rank: 30
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 4
+        jp: 44
+        name: Black Mage
+        next_rank: 100
+    current_job: :Black_Mage
+  standby_exp: 0.25
+  standby_jp: 0.2
+characters:
+  :Cloud: *1
+  :Barrett: *2
+  :Tifa: *3
+  :Aeris: *4
+  :Squall: *5
+  :Rinoa: *6
+  :Zell: *7
+  :Zidane: *8
+  :Vivi: *9
+  :Cid: !ruby/object:Character
+    active: false
+    name: Cid
+    level: 1
+    experience: 0
+    hp_max: 300
+    hp: 300
+    mp_max: 50
+    mp: 50
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 1
+        jp: 0
+        name: Freelancer
+        next_rank: 10
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Freelancer
+  :Yuna: !ruby/object:Character
+    active: false
+    name: Yuna
+    level: 1
+    experience: 0
+    hp_max: 170
+    hp: 170
+    mp_max: 140
+    mp: 140
+    jobs:
+      :Freelancer: !ruby/object:Freelancer
+        rank: 1
+        jp: 0
+        name: Freelancer
+        next_rank: 10
+      :Warrior: !ruby/object:Warrior
+        rank: 1
+        jp: 0
+        name: Warrior
+        next_rank: 20
+      :Thief: !ruby/object:Thief
+        rank: 1
+        jp: 0
+        name: Thief
+        next_rank: 15
+      :Monk: !ruby/object:Monk
+        rank: 1
+        jp: 0
+        name: Monk
+        next_rank: 30
+      :White_Mage: !ruby/object:White_Mage
+        rank: 1
+        jp: 0
+        name: White Mage
+        next_rank: 20
+      :Black_Mage: !ruby/object:Black_Mage
+        rank: 1
+        jp: 0
+        name: Black Mage
+        next_rank: 40
+    current_job: :Freelancer
