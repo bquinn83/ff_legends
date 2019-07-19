@@ -7,6 +7,6 @@ module Save_Game
       end
     end
     def load_game(game_file)
-      return YAML.load(File.read("./" + game_file))
+      return YAML::load(File.read("./" + game_file))
     end
 end
